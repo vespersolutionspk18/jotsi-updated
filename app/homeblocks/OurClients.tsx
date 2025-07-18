@@ -2,9 +2,9 @@ import React from 'react'
 
 const OurClients = () => {
   return (
-    <div className="p-16 flex flex-row gap-16">
-      <h5 className="w-[40%] text-5xl">
-        Trusted by employees & professionals alike
+    <div className="p-16 flex flex-row gap-16 items-center">
+      <h5 className="w-[40%] text-5xl font-normal tracking-tighter">
+        Proud to partner with industry leaders and innovators.
       </h5>
       <div className="flex flex-col gap-5 w-[60%]">
         <div className="flex flex-row gap-5">
