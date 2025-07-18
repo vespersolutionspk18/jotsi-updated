@@ -19,7 +19,7 @@ const servicesData: Record<string, ServiceData> = {
     title: "Strategic Talent Outsourcing Solutions",
     subtitle: "Professional staffing and recruitment services across industries.",
     description: "Scale your team efficiently with our vetted offshore professionals. From administrative support to specialized technical roles, we provide dedicated staff that seamlessly integrate with your operations while reducing overhead by up to 70%.\n\nOur rigorous selection process ensures you get top-tier talent across accounting, data entry, customer service, IT support, and specialized industry roles. Each team member undergoes comprehensive training on North American business practices and your specific workflows, backed by local management to ensure consistent quality and communication.",
-    image: "/assets/hero.jpeg",
+    image: "/assets/staffing.jpeg",
     route: "/services/talent-workforce-solutions"
   },
   estimation: {
@@ -27,7 +27,7 @@ const servicesData: Record<string, ServiceData> = {
     title: "Construction Estimating & Takeoff Services",
     subtitle: "Precision estimating and takeoff services for the construction industry.",
     description: "Bid with confidence and win more profitable projects with our meticulous estimating and material takeoff services. We deliver industry-leading accuracy on tight deadlines (24-48 hours), eliminating financial uncertainty and protecting your margins from the ground up.\n\nOur team of certified estimators and engineers utilizes advanced software to analyze blueprints for residential, commercial, and industrial projects. We specialize in detailed takeoffs for key trades, including structural steel, concrete, and flooring, ensuring every detail is accounted for from blueprint to final bid.",
-    image: "/assets/hero.jpeg",
+    image: "/assets/construction.jpeg",
     route: "/services/construction-estimating"
   },
   technology: {
@@ -35,8 +35,16 @@ const servicesData: Record<string, ServiceData> = {
     title: " Digital & Innovation Services",
     subtitle: "End-to-end AI, Web, and Software development for modern enterprises.",
     description: "Transform your business operations and gain a decisive competitive edge with our custom technology solutions. We design, build, and deploy powerful software, applications, and AI models that solve your unique challenges and create new opportunities for growth and efficiency.\n\nOur agile development process involves you at every stage, from concept to launch. Whether it's enterprise-grade ERP consulting, custom web and mobile development, or implementing advanced AI/ML models for data analysis, our expert engineers deliver scalable, secure, and future-proof solutions.",
-    image: "/assets/callcenter.jpg",
-    route: "/services/staffing"
+    image: "/assets/technology.jpeg",
+    route: "/services/technology"
+  },
+  financial: {
+    id: "financial",
+    title: "Financial Advisory Solution",
+    subtitle: "Managed Financial Operations",
+    description: "Ensure the financial and operational integrity of your enterprise with our comprehensive managed services. We take on the complex, time-consuming back-office functions—from day-to-day bookkeeping and payroll to strategic financial reporting and tax compliance—allowing your leadership to focus on core business growth and innovation.\n\nOur team of certified accountants, financial analysts, and HR specialists acts as your dedicated internal department. Leveraging industry-leading software and best practices, we deliver accurate, timely, and actionable insights for budgeting and forecasting, while ensuring strict regulatory compliance and operational excellence.",
+    image: "/assets/budgeting.webp",
+    route: "/services/financial-advisory"
   }
 };
 
@@ -45,10 +53,10 @@ const OurServices = () => {
   const currentService = servicesData[activeService];
 
   return (
-    <div className="bg-stone-100 p-20  flex flex-col tracking-tighter ">
-      <div className="flex flex-col lg:flex-row w-full  gap-26 ">
+    <div className="bg-stone-100 p-4 md:p-10 lg:p-20 flex flex-col tracking-tighter ">
+      <div className="flex flex-col lg:flex-row w-full gap-10 lg:gap-26 ">
         <div className="flex flex-col lg:w-[35%]">
-          <h2 className="text-xl lg:text-5xl mb-4  font-normal tracking-tighter">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl mb-4 font-normal tracking-tighter">
            Our Areas of Expertise
           </h2>
           <p className="text-stone-600 mb-8 text-lg mt-4 font-light" >
@@ -57,46 +65,59 @@ const OurServices = () => {
           <div className="flex flex-col gap-3">
             <button
               onClick={() => setActiveService("accounting")}
-              className={`flex items-center justify-between text-left text-xl font-normal border-b-2 pb-3 transition-all duration-300 ${
+              className={`flex items-center justify-between text-left text-lg md:text-xl font-normal border-b-2 pb-3 transition-all duration-300 ${
                 activeService === "accounting"
                   ? "text-black border-yellow-400"
                   : "text-stone-400 border-stone-200 hover:text-stone-600 hover:border-stone-300"
               }`}
             >
               <span>Talent & Workforce Solutions</span>
-              <span className={`text-3xl font-light transition-transform duration-300 ${
+              <span className={`text-2xl md:text-3xl font-light transition-transform duration-300 ${
                 activeService === "accounting" ? "rotate-45 text-yellow-500" : ""
               }`}>+</span>
             </button>
             <button
               onClick={() => setActiveService("estimation")}
-              className={`flex items-center justify-between text-left text-xl font-normal border-b-2 pb-3 transition-all duration-300 ${
+              className={`flex items-center justify-between text-left text-lg md:text-xl font-normal border-b-2 pb-3 transition-all duration-300 ${
                 activeService === "estimation"
                   ? "text-black border-yellow-400"
                   : "text-stone-400 border-stone-200 hover:text-stone-600 hover:border-stone-300"
               }`}
             >
               <span>Construction Estimating & Takeoff Services</span>
-              <span className={`text-3xl font-light transition-transform duration-300 ${
+              <span className={`text-2xl md:text-3xl font-light transition-transform duration-300 ${
                 activeService === "estimation" ? "rotate-45 text-yellow-500" : ""
               }`}>+</span>
             </button>
             <button
               onClick={() => setActiveService("technology")}
-              className={`flex items-center justify-between text-left text-xl font-normal border-b-2 pb-3 transition-all duration-300 ${
+              className={`flex items-center justify-between text-left text-lg md:text-xl font-normal border-b-2 pb-3 transition-all duration-300 ${
                 activeService === "technology"
                   ? "text-black border-yellow-400"
                   : "text-stone-400 border-stone-200 hover:text-stone-600 hover:border-stone-300"
               }`}
             >
               <span>Digital & Innovation Services</span>
-              <span className={`text-3xl font-light transition-transform duration-300 ${
+              <span className={`text-2xl md:text-3xl font-light transition-transform duration-300 ${
                 activeService === "technology" ? "rotate-45 text-yellow-500" : ""
+              }`}>+</span>
+            </button>
+            <button
+              onClick={() => setActiveService("financial")}
+              className={`flex items-center justify-between text-left text-lg md:text-xl font-normal border-b-2 pb-3 transition-all duration-300 ${
+                activeService === "financial"
+                  ? "text-black border-yellow-400"
+                  : "text-stone-400 border-stone-200 hover:text-stone-600 hover:border-stone-300"
+              }`}
+            >
+              <span>Financial Advisory</span>
+              <span className={`text-2xl md:text-3xl font-light transition-transform duration-300 ${
+                activeService === "financial" ? "rotate-45 text-yellow-500" : ""
               }`}>+</span>
             </button>
           </div>
         </div>
-        <div className="flex flex-col lg:w-[65%] gap-6">
+        <div className="flex flex-col lg:w-[65%] gap-6 mt-10 lg:mt-0">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeService}
@@ -115,13 +136,18 @@ const OurServices = () => {
                   className="rounded-2xl object-cover w-full h-full"
                 />
               </div>
-              <h3 className="text-2xl font-semibold">{currentService.subtitle}</h3>
+              <h3 className="text-xl md:text-2xl font-semibold">{currentService.subtitle}</h3>
               <div className="text-stone-600 font-light text-lg space-y-4">
                 {currentService.description.split('\n\n').map((paragraph, index) => (
                   <p key={index}>{paragraph}</p>
                 ))}
               </div>
-              <div className="w-fit"><Button className="text-md">Learn More About Our {currentService.title}</Button> </div>
+              <div className="w-fit">
+                <Button className="text-md">
+                  <span className="hidden md:inline">Learn More About Our {currentService.title}</span>
+                  <span className="md:hidden">Learn More</span>
+                </Button>
+              </div>
             </motion.div>
           </AnimatePresence>
         </div>
