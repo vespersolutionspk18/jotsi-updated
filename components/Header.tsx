@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Button } from './ui/button';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const Header = () => {
     <div className="relative">
       <header className="border-[1px] border-white/12 flex items-center justify-between p-3 bg-white/7 backdrop-blur-xs rounded-md shadow-lg">
         <div className="flex items-center">
-          <img src="/assets/jotsi.svg" alt="Logo" className="h-auto w-24 mr-4" />
+          <Image src="/assets/jotsi.svg" alt="Logo" width={96} height={24} className="h-auto w-24 mr-4" />
         </div>
         <nav className="hidden md:flex items-center text-white space-x-8">
           <a href="#" className="text-md hover:text-gray-400">Home</a>

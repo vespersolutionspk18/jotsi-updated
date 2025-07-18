@@ -9,7 +9,7 @@ const CTA = () => {
           Ready to stop settling for average results?
         </h5>
         <p className="text-black/65 text-base md:text-lg max-w-md">
-            Join countless others who've already transformed their financial future.
+            Join countless others who&apos;ve already transformed their financial future.
         </p>
         <Button className="text-md">Get A Free Consultation</Button>
          <p className="text-black text-lg md:text-xl font-normal ">
