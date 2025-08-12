@@ -1,36 +1,26 @@
-import Image from "next/image";
 import React from "react";
+import Header from "@/components/Header";
 
 const Hero = () => {
   return (
-    <div className="bg-white px-6 md:px-16 lg:px-24 py-12">
-      <div className="flex flex-col lg:flex-row items-end justify-between gap-4">
-        <div className="text-center lg:text-left w-full lg:w-[60%]">
-          <p className="text-orange-600 font-medium">We are Investare</p>
-          <h1 className="text-3xl md:text-6xl font-semibold tracking-tighter leading-tight mt-2">
-            We set out to build <br />
-            <span className="text-gray-600 font-semibold">
-              a better way to invest
-            </span>
-          </h1>
-        </div>
-
-        <p className="text-gray-500 w-full lg:w-[40%] mt-6 lg:mt-0">
-          Together—the investors and partners <br /> of Investare—we are
-          reinventing real <br />
-          estate investing end-to-end.
-        </p>
+    <div
+      className="relative min-h-[80vh] w-full flex flex-col justify-between p-4 md:p-7 bg-cover bg-center"
+      style={{ backgroundImage: "url('/assets/group.jpg')" }}
+    >
+      <div className="absolute inset-0 bg-black opacity-70"></div>
+      <div className="relative z-10">
+        <Header />
       </div>
-
-      <div className="flex flex-row mt-12 gap-4">
-        <div
-          className="h-74 w-[60%] bg-blend-multiply bg-center bg-cover rounded-lg"
-          style={{ backgroundImage: "url('/assets/group.jpg')" }}
-        ></div>
-        <div
-          className="h-74 w-[40%] bg-blend-multiply bg-center bg-cover rounded-lg"
-          style={{ backgroundImage: "url('/assets/group2.jpg')" }}
-        ></div>
+      <div className="relative z-10 flex flex-col gap-8 pb-16">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl text-white font-normal tracking-tighter max-w-5xl">
+          Building the <span className="text-yellow-400">future of work</span>, 
+          one partnership at a time
+        </h1>
+        <p className="w-full md:w-[60%] lg:w-[50%] text-white/80 text-lg leading-relaxed">
+          At Jotsi, we believe that every business deserves access to world-class talent and support. 
+          Our mission is to connect ambitious companies with exceptional professionals who share their 
+          vision for growth, innovation, and success.
+        </p>
       </div>
     </div>
   );
