@@ -105,13 +105,10 @@ const Locations = () => {
                   <h3 className="text-xl font-normal tracking-tight mb-1">
                     {office.city}, {office.country}
                   </h3>
-                  <p className="text-stone-600 text-sm mb-3">
+                  <p className="text-stone-600 text-sm">
                     {office.address}<br />
                     {office.zip}
                   </p>
-                  <button className="text-yellow-600 hover:text-yellow-700 text-sm font-medium transition-colors">
-                    Get directions →
-                  </button>
                 </div>
               </div>
             ))}

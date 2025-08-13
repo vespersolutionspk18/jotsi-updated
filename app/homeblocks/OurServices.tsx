@@ -111,7 +111,7 @@ const OurServices = () => {
   const currentService = servicesData[activeService];
 
   return (
-   <div className="bg-stone-100 p-4 md:p-10 lg:p-20 flex flex-col tracking-tighter">
+   <div id="services" className="bg-stone-100 p-4 md:p-10 lg:p-20 flex flex-col tracking-tighter">
   <div className="flex flex-col lg:flex-row w-full gap-10 lg:gap-26">
     {/* Left Sidebar: Services List */}
     <div className="flex flex-col lg:w-[35%]">

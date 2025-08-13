@@ -35,7 +35,7 @@ const Footer = () => {
 
         {/* Right Section: Copyright Info */}
         <div className="text-center md:text-right text-xs w-full md:w-auto mt-8 md:mt-auto">
-          <p className="text-sm">&copy; 2025 Jotsi Inc. Registered in Canada.</p>
+          <p className="text-sm">&copy; 2025 Jotsi</p>
           <p className="text-sm">All Rights Reserved</p>
         </div>
       </div>
