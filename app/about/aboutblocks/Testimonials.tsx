@@ -33,7 +33,7 @@ const Testimonials = () => {
     <div className="bg-black p-4 md:p-10 lg:p-20">
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-normal tracking-tighter text-white mb-6">
-          Meet our <span className="text-yellow-400">leadership</span>
+          Meet our <span className="text-jotsi">leadership</span>
         </h2>
         <p className="text-white/70 max-w-3xl mx-auto text-lg">
           Visionaries who understand the challenges of scaling businesses and the power of exceptional talent
@@ -54,7 +54,7 @@ const Testimonials = () => {
               <h3 className="text-white text-xl font-normal tracking-tight">
                 {leader.name}
               </h3>
-              <p className="text-yellow-400 text-sm">
+              <p className="text-jotsi text-sm">
                 {leader.role}
               </p>
               <p className="text-white/60 text-sm mt-2">

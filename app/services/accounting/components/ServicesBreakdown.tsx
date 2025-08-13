@@ -97,7 +97,7 @@ const ServicesBreakdown = () => {
     <div className="bg-white p-4 md:p-10 lg:p-20">
       <div className="mb-12">
         <h2 className="text-4xl md:text-5xl font-normal tracking-tighter mb-4">
-          Comprehensive <span className="text-yellow-400">accounting solutions</span>
+          Comprehensive <span className="text-jotsi">accounting solutions</span>
         </h2>
         <p className="text-stone-600 text-lg max-w-3xl">
           From daily bookkeeping to strategic CFO services, we provide the full spectrum of 
@@ -122,7 +122,7 @@ const ServicesBreakdown = () => {
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-normal tracking-tight">{service.title}</span>
                   <span className={`text-2xl transition-transform duration-300 ${
-                    selectedService.id === service.id ? "rotate-45 text-yellow-400" : ""
+                    selectedService.id === service.id ? "rotate-45 text-jotsi" : ""
                   }`}>
                     +
                   </span>
@@ -166,11 +166,11 @@ const ServicesBreakdown = () => {
 
               {/* Features Grid */}
               <div>
-                <h4 className="text-xl font-medium mb-6">What's included:</h4>
+                <h4 className="text-xl font-medium mb-6">What&apos;s included:</h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {selectedService.details.map((detail, index) => (
                     <div key={index} className="flex items-start gap-3">
-                      <div className="bg-yellow-400 w-2 h-2 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="bg-jotsi w-2 h-2 rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-stone-600">{detail}</span>
                     </div>
                   ))}

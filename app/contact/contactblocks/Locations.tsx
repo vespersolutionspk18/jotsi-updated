@@ -42,16 +42,16 @@ const Locations = () => {
       <div className="flex flex-col lg:flex-row gap-12 lg:gap-20">
         <div className="w-full lg:w-[35%]">
           <h2 className="text-4xl md:text-5xl font-normal tracking-tighter mb-6">
-            Global presence, <span className="text-yellow-400">local expertise</span>
+            Global presence, <span className="text-jotsi">local expertise</span>
           </h2>
           <p className="text-stone-600 text-lg mb-8">
             With offices strategically located across major business hubs, 
-            we're always within reach to provide the support you need, when you need it.
+            we&apos;re always within reach to provide the support you need, when you need it.
           </p>
           
           <div className="space-y-4 mb-8">
             <div className="flex items-start gap-3">
-              <div className="bg-yellow-400 p-2 rounded-md mt-1">
+              <div className="bg-jotsi p-2 rounded-md mt-1">
                 <BsGeoAltFill className="text-black text-lg" />
               </div>
               <div>
@@ -62,7 +62,7 @@ const Locations = () => {
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <div className="bg-yellow-400 p-2 rounded-md mt-1">
+              <div className="bg-jotsi p-2 rounded-md mt-1">
                 <BsGeoAltFill className="text-black text-lg" />
               </div>
               <div>
@@ -73,7 +73,7 @@ const Locations = () => {
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <div className="bg-yellow-400 p-2 rounded-md mt-1">
+              <div className="bg-jotsi p-2 rounded-md mt-1">
                 <BsGeoAltFill className="text-black text-lg" />
               </div>
               <div>
@@ -96,7 +96,7 @@ const Locations = () => {
                 >
                   <div className="absolute inset-0 bg-black/40"></div>
                   <div className="absolute bottom-3 left-3">
-                    <span className="bg-yellow-400 text-black text-xs px-2 py-1 rounded">
+                    <span className="bg-jotsi text-black text-xs px-2 py-1 rounded">
                       {office.type}
                     </span>
                   </div>

@@ -6,7 +6,7 @@ const OurStory = () => {
       <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-4">
         <div className="flex flex-col justify-between gap-10 md:gap-0 w-full md:w-[30%]">
           <h2 className="text-4xl md:text-5xl font-normal tracking-tighter">
-            Our <span className="text-yellow-400">Story</span>
+            Our <span className="text-jotsi">Story</span>
           </h2>
           <div className="text-lg md:text-xl text-stone-600">
             Founded in 2019 with a simple yet powerful vision
@@ -15,8 +15,8 @@ const OurStory = () => {
         <div className="flex flex-col justify-between w-full md:w-[65%]">
           <div className="text-stone-700 text-lg leading-relaxed space-y-6">
             <p>
-              Jotsi was born from a fundamental belief: exceptional talent shouldn't be limited by geography, 
-              and growing businesses shouldn't have to compromise on quality to manage costs. Our founders 
+              Jotsi was born from a fundamental belief: exceptional talent shouldn&apos;t be limited by geography, 
+              and growing businesses shouldn&apos;t have to compromise on quality to manage costs. Our founders 
               recognized a gap in the market for a truly comprehensive HR and business support partner.
             </p>
             <p>
@@ -25,8 +25,8 @@ const OurStory = () => {
               Today, we serve over 50 satisfied clients across multiple industries, from startups to Fortune 500 companies.
             </p>
             <p>
-              What sets us apart isn't just our global talent network or our industry expertise—it's our 
-              unwavering commitment to understanding each client's unique needs and culture. We don't just 
+              What sets us apart isn&apos;t just our global talent network or our industry expertise—it&apos;s our 
+              unwavering commitment to understanding each client&apos;s unique needs and culture. We don&apos;t just 
               fill positions; we build teams that integrate seamlessly with your operations and share your vision for success.
             </p>
           </div>

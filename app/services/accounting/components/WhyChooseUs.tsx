@@ -46,11 +46,11 @@ const WhyChooseUs = () => {
     <div className="bg-stone-50 p-4 md:p-10 lg:p-20">
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-normal tracking-tighter mb-4">
-          Why businesses <span className="text-yellow-400">trust Jotsi</span> with their finances
+          Why businesses <span className="text-jotsi">trust Jotsi</span> with their finances
         </h2>
         <p className="text-stone-600 text-lg max-w-3xl mx-auto">
           We combine deep accounting expertise with modern technology and a genuine commitment 
-          to your success. Here's what sets us apart.
+          to your success. Here&apos;s what sets us apart.
         </p>
       </div>
 
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
         {benefits.map((benefit, index) => (
           <div key={index} className="bg-white p-6 rounded-lg">
-            <div className="text-yellow-400 mb-4">{benefit.icon}</div>
+            <div className="text-jotsi mb-4">{benefit.icon}</div>
             <h3 className="text-xl font-normal tracking-tight mb-2">{benefit.title}</h3>
             <p className="text-stone-600">{benefit.description}</p>
           </div>
@@ -70,7 +70,7 @@ const WhyChooseUs = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <p className="text-yellow-400 text-3xl md:text-4xl font-normal tracking-tight mb-2">
+              <p className="text-jotsi text-3xl md:text-4xl font-normal tracking-tight mb-2">
                 {stat.number}
               </p>
               <p className="text-white/70 text-sm">{stat.label}</p>

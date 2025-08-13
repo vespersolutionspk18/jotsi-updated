@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
       <div className="relative flex flex-col md:flex-row items-start md:items-end justify-between z-10 gap-8 mt-8 md:mt-0">
         <h1 className="w-full md:w-[60%] text-5xl md:text-6xl lg:text-7xl text-white font-normal tracking-tighter">
-           <span className="text-yellow-400">Jotsi</span>: Your All-in-One Partner for Business Growth.
+           <span className="text-jotsi">Jotsi</span>: Your All-in-One Partner for Business Growth.
         </h1>
         <div className="bg-white/7 border-[1px] h-fit border-white/12 backdrop-blur-md rounded-md shadow-lg text-white p-4 flex flex-col gap-10 w-full md:w-[300px]">
           <h5 className="text-lg leading-snug">

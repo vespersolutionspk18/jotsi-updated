@@ -54,7 +54,7 @@ const FAQ = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-normal tracking-tighter mb-4">
-            Frequently asked <span className="text-yellow-400">questions</span>
+            Frequently asked <span className="text-jotsi">questions</span>
           </h2>
           <p className="text-stone-600 text-lg">
             Get answers to common questions about our accounting and bookkeeping services.

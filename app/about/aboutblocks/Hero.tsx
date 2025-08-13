@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <div className="relative z-10 flex flex-col gap-8 pb-16">
         <h1 className="text-5xl md:text-6xl lg:text-7xl text-white font-normal tracking-tighter max-w-5xl">
-          Building the <span className="text-yellow-400">future of work</span>, 
+          Building the <span className="text-jotsi">future of work</span>, 
           one partnership at a time
         </h1>
         <p className="w-full md:w-[60%] lg:w-[50%] text-white/80 text-lg leading-relaxed">

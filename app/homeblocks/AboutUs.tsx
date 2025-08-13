@@ -13,7 +13,7 @@ const AboutUs = () => {
       </div>
       <div className="flex flex-col justify-between w-full md:w-[66%]">
         <h5 className="text-3xl md:text-5xl font-normal tracking-tighter">
-          Delivering <span className="text-yellow-400">comprehensive support</span> across industries to help you build, scale, and succeed.
+          Delivering <span className="text-jotsi">comprehensive support</span> across industries to help you build, scale, and succeed.
         </h5>
         
         <div className="flex mt-8 md:mt-16 rounded-sm flex-col md:flex-row w-full border-[1px] border-stone-300 text-stone-600 divide-y md:divide-y-0 md:divide-x divide-stone-300">

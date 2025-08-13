@@ -6,19 +6,19 @@ const Ourteam = () => {
     <div className="bg-stone-100 p-4 md:p-10 lg:p-20 flex flex-col">
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-normal tracking-tighter mb-6">
-          Led by industry <span className="text-yellow-400">veterans</span>,
+          Led by industry <span className="text-jotsi">veterans</span>,
           powered by global talent
         </h2>
         <p className="text-stone-600 max-w-3xl mx-auto text-lg">
           Our leadership team brings decades of experience from Fortune 500 companies, 
-          leading consultancies, and successful startups. Together, we've built a culture 
+          leading consultancies, and successful startups. Together, we&apos;ve built a culture 
           of excellence, innovation, and client success.
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-white rounded-lg p-8 flex flex-col gap-5 relative">
-          <div className="bg-yellow-400 p-3 rounded-md w-fit">
+          <div className="bg-jotsi p-3 rounded-md w-fit">
             <BsPatchCheckFill className="text-black text-2xl" />
           </div>
           <h3 className="text-2xl md:text-3xl font-normal tracking-tighter">
@@ -31,7 +31,7 @@ const Ourteam = () => {
         </div>
 
         <div className="bg-white rounded-lg p-8 flex flex-col gap-5 relative">
-          <div className="bg-yellow-400 p-3 rounded-md w-fit">
+          <div className="bg-jotsi p-3 rounded-md w-fit">
             <BsGlobeAmericas className="text-black text-2xl" />
           </div>
           <h3 className="text-2xl md:text-3xl font-normal tracking-tighter">
@@ -44,7 +44,7 @@ const Ourteam = () => {
         </div>
 
         <div className="bg-white rounded-lg p-8 flex flex-col gap-5 relative">
-          <div className="bg-yellow-400 p-3 rounded-md w-fit">
+          <div className="bg-jotsi p-3 rounded-md w-fit">
             <BsPeopleFill className="text-black text-2xl" />
           </div>
           <h3 className="text-2xl md:text-3xl font-normal tracking-tighter">

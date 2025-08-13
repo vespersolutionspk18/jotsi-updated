@@ -62,7 +62,7 @@ const Packages = () => {
     <div className="bg-white p-4 md:p-10 lg:p-20">
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-normal tracking-tighter mb-4">
-          Transparent <span className="text-yellow-400">pricing</span> that scales with you
+          Transparent <span className="text-jotsi">pricing</span> that scales with you
         </h2>
         <p className="text-stone-600 text-lg max-w-3xl mx-auto mb-8">
           No hidden fees, no surprises. Choose the package that fits your business today, 
@@ -104,13 +104,13 @@ const Packages = () => {
             key={index}
             className={`relative rounded-lg p-8 ${
               pkg.highlighted 
-                ? "bg-black text-white border-2 border-yellow-400 scale-105" 
+                ? "bg-black text-white border-2 border-jotsi scale-105" 
                 : "bg-stone-50 border border-stone-200"
             }`}
           >
             {pkg.popular && (
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-medium">
+                <span className="bg-jotsi text-black px-4 py-1 rounded-full text-sm font-medium">
                   MOST POPULAR
                 </span>
               </div>
@@ -148,7 +148,7 @@ const Packages = () => {
             <ul className="space-y-3 mb-8">
               {pkg.features.map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-3">
-                  <BsCheckCircleFill className={`text-yellow-400 mt-0.5 flex-shrink-0`} />
+                  <BsCheckCircleFill className={`text-jotsi mt-0.5 flex-shrink-0`} />
                   <span className={`text-sm ${pkg.highlighted ? "text-white/90" : "text-stone-700"}`}>
                     {feature}
                   </span>

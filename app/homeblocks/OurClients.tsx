@@ -5,7 +5,7 @@ const OurClients = () => {
   return (
     <div className="p-4 md:p-16 flex flex-col lg:flex-row gap-8 lg:gap-16 items-center">
       <h5 className="w-full lg:w-[40%] text-3xl md:text-5xl font-normal tracking-tighter text-center lg:text-left">
-        Proud to partner with industry <span className="text-yellow-400">leaders</span> and innovators.
+        Proud to partner with industry <span className="text-jotsi">leaders</span> and innovators.
       </h5>
       <div className="w-full lg:w-[60%]">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5">

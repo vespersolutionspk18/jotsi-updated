@@ -7,13 +7,13 @@ const Footer = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
-    { name: 'Accounting', href: '/accounting' },
-    { name: 'Estimation', href: '/estimation' },
-    { name: 'Offshoring', href: '/offshoring' },
-    { name: 'Financial Advisory', href: '/financial-advisory' },
-    { name: 'Technology', href: '/technology' },
+    { name: 'Accounting', href: '/services/accounting' },
+    { name: 'Construction', href: '/services/construction' },
+    { name: 'Technology', href: '/services/technology' },
+    { name: 'Marketing', href: '/services/marketing' },
+    { name: 'Healthcare', href: '/services/healthcare' },
     { name: 'Privacy Policy', href: '/privacy-policy' },
-    { name: 'Terms & Conditions', href: '/terms-conditions' },
+    { name: 'Terms of Service', href: '/terms-of-service' },
   ];
 
   return (
